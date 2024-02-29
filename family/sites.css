@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body {
+  background-color: white;
+}
+.guide{
+    margin-top: -17%;
+    padding-left: 16%;
+}
+h3{
+    padding-left: 45%;
+    font-size: medium;
+}
+.site{
+    top: -82%;
+    padding-left: 100%;
+    position: relative;
+    margin: 0 65px 0 0;
+    width: 260px;
+    min-height: 119%;
+}
+.middle{
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.middle5{
+    position: absolute;
+    top:  55%;
+    left: 48.5%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.middle6{
+    position: absolute;
+    top:  55%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.middle7{
+    position: absolute;
+    top: 68%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.middle8{
+    position: absolute;
+    top: 68%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.middle9{
+    position: absolute;
+    top: 133%;
+    left: 29%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.middle10{
+    position: absolute;
+    top: 133%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.middle11{
+    position: absolute;
+    top: 133%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn{
+    background-color: rgba(82, 82, 82, 0.08);
+    text-transform: uppercase;
+    padding: 34px 79px;
+    font-size: large;
+    border: solid 1px white;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn1::before{
+    transform: scaleX(0);
+}
+.btn1:hover::before{
+    transform: scaleX(1);
+}
+.down{
+    color: rgb(0, 0, 0);
+    padding-top: 19%;
+    padding-left: 19%;
+    font-size: 11px;
+    font-weight: bold;
+}
+.swan{
+    margin-top: -1%;
+    padding-left: 71%;
+    font-size: 85%;
+    padding-bottom: 4%;
+}
+.swan a{
+    color: black;
+    text-decoration: none; 
+}

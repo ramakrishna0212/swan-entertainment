@@ -1,0 +1,40 @@
+*{
+    color: black;
+}
+body {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+.jumbotron a:hover{
+    color: rgb(255, 85, 0);
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.col-sm-4 a:hover{
+    color: rgb(255, 85, 0);
+    padding-left: 2px;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+}
+.text-center {
+    text-align: center;
+    position: fixed;
+    font-size: 181%;
+    line-height: 52%;
+    top: 45%;
+}
+.container {
+    padding-left: 59%;
+    width: 36%;
+}
+.row {
+    margin-left: 42px;
+}
+.rights{
+    padding-top: 6%;
+    font-size: x-small;
+    font-weight: 700;
+}

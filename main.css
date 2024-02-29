@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 6px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1652195057379-62ecfa7dc04d?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pkchs{
+  color: rgb(0, 0, 0);
+  padding-top: 3%;
+  padding-left: 6%;
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.logo {
+  margin-top: -27px;
+}
+.menu-bar {
+  margin: -87px;
+    padding-left: 68%;
+    position: fixed;
+    text-decoration: none;
+    top: 10%;
+}
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+.menu-bar ul li {
+  padding: 10px 19px;
+  position: relative;
+}
+.menu-bar ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.menu-bar ul li a:hover {
+  color: rgb(255, 85, 0);
+}
+.fas {
+  float: right;
+  margin-left: 110px;
+  padding-top: 3px;
+}
+.dropdown-menu {
+  display: none;
+}
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 90%;
+  background-color:rgba(0, 0, 0, 0);
+}
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 10%;
+  padding: 10px;
+}
+.dropdown-menu-1 {
+  display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  left: 45px;
+  top: -21px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.hero {
+  background-image: url("https://unsplash.com/photos/an-aerial-view-of-an-island-in-the-middle-of-the-ocean-uxhmO7BumvA");
+  background-position: center;
+}
+.guide{
+  padding-top: 3%;
+  padding-left: 30%;
+}
+.down{
+  color: rgb(0, 0, 0);
+  padding-top: 1%;
+  font-size: 11px;
+  font-weight: bold;
+}
+.family a{
+  font-family: system-ui;
+  text-decoration: none;
+  color: black;
+  padding-left: 89%;
+  font-weight: 600;
+}
+.family a:hover{
+  transition: all 0.50s;
+  color: rgb(255, 255, 255);
+}
